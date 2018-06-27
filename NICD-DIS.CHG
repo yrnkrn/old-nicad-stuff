@@ -1,0 +1,75 @@
+From: pena@Mikrolog.FI (Pentti Haka)
+Newsgroups: sci.electronics
+Subject: Re: Nicad-battery Discharger....
+
+Here's a simple circuit I have used to discharge/charge my R/C receiver
+nicad's:
+                  PB1  __M__
+               --------.    .------
+               |                  |
+               |         / .------|----------------------------------<-- +C
+   +B -->------+-------./         |
+                           .------+-----------+--------------+
+                    RY1 ___       |           |              |
+                       I   I------+           |              |
+                       I   I                 _|_             |
+                       I___I------+            /             |
+                                  |           /\  Z1        _|_
+                                   \         /__\          /\ /\
+                              Q1    \I        |           I  X  I L1
+                                     I--------+            \/_\/
+                                    LI        |              |
+                                   /         <               |
+                                  |           >              |
+                                  |          <   R1          |
+                                  |           >              |
+                                  |           |              |
+   -B -->-------------------------+-----------+--------------+------<--- -C
+
+Part values for a six-cell (7.2V 1.2 Ah battery):
+
+RY1: 5 volt relay (SPDT)
+Q1:  almost any small-signal NPN transistor capable of handling the relay's
+     current. A heat sink is advisable, as the transistor will be non-
+     saturated for some time when the battery is nearly discharged.
+PB1: push-button (N.O., spring-loaded)
+Z1:  5.6 volt zener diode
+L1:  6 volt 3 watt lamp
+R1:  1 kilo-ohm resistor
+
+The battery is connected to B+ / B-, and the (optional) charger to C+ / C-
+
+This works as follows:
+Connect the battery and charger, and push the button PB1. If there is charge
+left in the battery, the current through the zener diode Z1 drives Q1 to
+saturation and the relay is energized. The relay stays on after the button
+is released. The discharge cycle starts, the discharge current being the sum
+of the relay, zener and lamp currents. The lamp takes most of the current,
+giving a visual indication that discharge is taking place.
+
+When the battery is nearly depleted, the zener cuts off drive current to the
+base of Q1, and the relay is de-energized. The charger is now connected to
+the battery, and the charge cycle starts.
+
+This circuit can of course be used as a discharge device only, by omitting
+the charger.
+
+The zener value is chosen so that about 1 volt per cell will remain in the
+battery, to avoid individual cell reversal.
+
+The charger can be any type, as long as it will spontaneuosly start charging
+when it sees the battery as it's load. I have used a simple C/10 charger, so
+I do not worry about overcharge. The discharge load (lamp wattage) is chosen
+so that the discharge cycle takes max. 2 hours; the total time using a C/10
+charger will then be about 16 hours. The small uncertainty about the initial
+charge in the battery makes no difference here.
+
+A quick charger can also be used, but it should be equipped with auto
+cutoff (thermal or delta sensing), as the total cycle time becomes more
+dependent on the initial charge. An alternative would be to use a timer that
+starts running when the discharge relay is de-energized. A timed quick
+charge is relatively safe here, as the initial battery state is always known
+to be empty.
+
+--- Pentti Haka
+--- Pentti.Haka@Mikrolog.Fi

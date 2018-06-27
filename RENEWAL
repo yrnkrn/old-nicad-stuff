@@ -1,0 +1,94 @@
+Article 68179 of sci.electronics:
+From: dmiller@crl.com (Donald J. Miller)
+Newsgroups: sci.electronics
+Subject: Re: Renewal Batteries vs. "typical" alkalines
+Date: 23 Jan 1994 18:14:06 -0800
+
+Martin F. Falatic (mff@mentor.cc.purdue.edu) wrote:
+
+:   lying about, and found the following, _after_ I ran the Renewals thru the
+: charger (the decreased performance remained):
+: 	
+: 	Rayovac Renewal  	  Typical Alkaline
+:    AA	7.4 A			 6.7 A (Rayovac Maximum, pretty new)
+:     C	4.8 A			  ?? A (Didna have any! guess ~ 8.0 A)
+:     D	6.7 A			10.2 A (Energizer, kinda old)
+
+I have done some testing on these batteries for possible use in a portable
+consumer product, and one thing that I found was that although Rayovac
+claims that these batteries have a full charge right out of the package,
+this is not always necessarily so.  This may have had an effect on your data.
+
+: 	Now, is it me, or isn't the whole idea of AA, C, and D that load
+: capacity should increase up that scale? It's obvious on the "Typical
+: Alkaline" side of my chart, but the Renewal side is ridiculous. Perhaps I
+: got a bad set of batteries (of 3 different sizes, etc.), but I think the
+: problem is with the Renewals themselves.
+
+If you are really interested, try repeating your test with brand new
+batteries that have been stuck in the charger before the test.
+
+: 	Either way, if anyone out there has any suggestions, or comments,
+: or a FAQ :)  (if I am beating a soggy dead horse,) drop me some e-mail. I
+
+I think this topic is of wide interest, so I think a post is better.
+
+A Rayovac aps engineer visited our company and told us the following:
+
+1) Renewal Cells will have a total capacity greater than that of a simular
+   sized NiCad, but somewhat less that a regular Alkaline cell.  The
+   capacity of these cells is measured down to the 0.9 volt per cell
+   point.
+
+2) The claimed 25 charges is a rough number.  Each charge cycle results in
+   a reduction of capacity.  When the charge lifetime is short enough to
+   get on your nerves, you throw them away.
+
+3) If you don't discharge the batteries all the way down to 0.9 volts
+   per cell, you will get MORE charge cycles.  If you consistantly run
+   them below the 0.9 volt point, you will get less.  These batteries
+   love to be topped off.
+   (ongoing testing that I am running confirms this)
+
+4) These cells contain no mercury, so they are "green".
+
+5) The principle reason regular alkaline cells can not be re-charged is
+   because of excess hydrogen gas that is built up within the cell.
+   Renewal batteries are possible because of a tweak in their chemistry
+   that eliminates this problem.
+
+6) The battery charger (power station) has a special ASIC that measures
+   the internal battery impedance of an inserted cell to make sure that
+   it does not charge an inserted NiCad.  The recharger will refuse to
+   try to charge a NiCad.
+
+7) The Power Station will not attempt to charge a regular alkaline or a
+   zinc-carbon cell because of the way that the charger makes electrical
+   contact with the positive end of the cell.  If you look closely at
+   the top (nub) end of the cell, you will notice that the outside
+   insulation jacket does not QUITE go to the top of the cell.  This is
+   where the positive charging contact touches the cell.  On a regular
+   cell, this point is insulated.  If you scrape the insulation away
+   from a regular cell, the exposed surface is the NEGATIVE side of the
+   cell, not the positive.
+
+8) The charging of each cell must be closely managed.  This is why a
+   special ASIC in the power station is employed.  Unfortunately, this
+   makes it difficult to use these in OEM applications where they are
+   sealed in a multi-cell pack.  It could conceivably be done if taps
+   were brought out from each cell contact.  This is probably enough to
+   make it too expensive to design a Renewal Pack.
+
+The above pretty much constitutes a COMPLETE DUMP of what I know about
+these cells, so I am the wrong source for followup questions.  If
+someone wants to research this further and generate a FAQ, they are
+welcome to use this article as a starting point.
+
+It seems that these cells will perform quite well if you avoid deep
+discharge cycles.  If you come back from camping, fishing, or working
+on the car, don't just throw your flashlight in the corner -- charge
+the batteries right away.  They will serve you longer.
+
+Don Miller    dmiller@crl.com
+
+

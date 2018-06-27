@@ -1,0 +1,35 @@
+Newsgroups: sci.electronics
+From: kevin@novell.com (Kevin White)
+Subject: Re: Fixing a gell battery
+Date: Tue, 23 Nov 1993 17:30:36 GMT
+
+Gel Cells are manufactured as "starved electrolyte" cells.  There is not
+enough sulphuric acid in the electrolyte to combine with all of the lead
+in the plates.  As a result if the battery is left unused for a long
+period (1 year) all of the acid combines with the lead and the electrolyte
+becomes pretty much pure water.  Having a pure water electrolyte gives the
+battery a very high resistance (very few ions are in pure water to conduct
+any charging current).  The method I have heard of to recover from this is
+to apply a current limited high voltage to the battery (6 volts per cell with
+a resistor to limit current to a few milliamps) and charge it for many days.
+
+With a high voltage applied a small current will flow which will slowly
+convert the lead sulphate in the plates into sulphuric acid in the electrolyte.
+As it does so the conductivity of the electrolyte will increase until
+eventually the battery will accept charge at normal voltages.
+
+For normal charging a Gel Cell should be charged from a current limited
+voltage source of about 2.3volts per cell.  The current will eventually
+drop to a few milliamps when the cell is charged.  Be careful about charging
+the cells from too high a voltage: if gassing occurs the water in the
+electrolyte is lost and there is not any intentional provision for
+replenishment (It can be done with a syringe).
+
+Kevin White
+
+
+
+
+
+
+

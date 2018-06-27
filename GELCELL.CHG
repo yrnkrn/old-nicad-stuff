@@ -1,0 +1,22 @@
+Newsgroups: sci.electronics,rec.radio.amateur.misc
+From: ljbartel@naomi.b23b.ingr.com (Les Bartel)
+Subject: Re: How to charge Gel-Cells
+Date: Wed, 31 Mar 1993 14:13:02 GMT
+
+
+float charge 2.28 - 2.32 volts/cell  .2C  continuous
+normal charge 2.5 - 2.55 volts/cell  .5C  10 - 24 hours
+
+
+float charge constant voltage: 2.3 - 2.4 volts/cell  constant current: C/500
+normal charge constant voltage: 2.4 - 2.5 volts/cell  constant current: C/5
+
+ - les
+
+--
+Les Bartel			I'm going to live forever
+Intergraph Corporation		... or die trying
+Electronics Division		
+ljbartel@ingr.com
+or ljbartel@naomi.b23b.ingr.com
+(205) 730-8537

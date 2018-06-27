@@ -1,0 +1,22 @@
+Newsgroups: sci.electronics,sci.engr.manufacturing
+From: vgeor@leon.nrcps.ariadne-t.gr (Vassilios Georgiou - NOC)
+Subject: Re: Rechargeable Alkalines
+Date: Mon, 22 Nov 1993 10:22:51 GMT
+
+All alkalines can be safely slow charged without special
+chargers. A very simple and effective charger can be
+made from a wall plug type power supply and a resistor.
+Select a resistor that will charge AA cells at 7ma,
+C cells at 15mA and D cells at 25mA. Leave the cells
+on for two days. You may try more current for faster
+charging but if you exceed certain limits (to be found by
+experiment) you will risk leak or expplosion and
+certainly degrade the quality of charge.
+
+Vassilios Georgiou
+
+--
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Vassilios J. Georgiou    ARIADNH GREEK ACADEMIC & RESEARCH NET
+vgeor@leon.nrcps.ariadne-t.gr             OPERATIONS  CENTER
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

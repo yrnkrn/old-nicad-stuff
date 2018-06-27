@@ -1,0 +1,60 @@
+Article 10658 of sci.electronics:
+From: gene@cooper.cooper.EDU (Gene (the Spook) )
+Newsgroups: sci.electronics
+Subject: Re: reviving nicads
+Date: 9 Nov 90 01:48:05 GMT
+
+in article <1990Nov6.195112.11285@infonode.ingr.com>, fordke@infonode.ingr.com (Keith Ford x8614) says:
+>
+> I once worked for a fellow who showed me a way to revive a nicad
+> battery.  I think it involved pumping a high current through for
+> a few seconds.  Can anyone expand on this or provide other useful
+> information.  Please email if possible.  Thanks!  -kef/MM-
+
+To get rid of a short, you can "zap" the NiCd from a capacitor and a
+higher-than-normal voltage source, just as you described.  A few thousand
+microfarads and about 6V or so would probably be enough to blow the short
+like a fuse.
+
+When NiCds "forget" that they were charged, usually from being lightly
+discharged and then recharged, over and over, the best way to "fix" that
+is to deep-discharge the cell almost down to nothing, and then *slowly*
+recharge it at about half to a quarter of its usual charging current,
+and then repeat this deep-discharge/slow-recharge cycle twice or thrice.
+
+Hope this helps some...
+
+							Spookfully yours,
+							Gene
+
+Article 10689 of sci.electronics:
+From: kronstad@tortoise.cis.ohio-state.edu (richard b kronstad)
+Newsgroups: sci.electronics
+Subject: Re: reviving nicads
+Date: 10 Nov 90 20:22:36 GMT
+
+
+
+I have revived a couple of Nicads myself.  basically you want to charge up
+a capacitor (try samller ones at first -1 uF) up to over 100 volts with
+a DC source.  An AC source (such as a wall socket) will work as long as
+the capacitor is NOT ELECTROLYTIC (I blew a few up myself - nice blue glow)
+and the capacitor is rated WELL ABOVE 200 volts since you will cause a lot of
+current to flow - Come to think of it I DON"T RECOMMEND USING A WALL SOCKET!
+
+CHarge up the capacitor using a transformer and rectified at around 150 volts.
+Remove the capacitor (carefully - it could be a shoking experience if you touch
+the leads) and connect the diode "-" side to the Nicad "-" side and do the
+same with the "+" sides.  You might see a spark, but that's allright because
+you want to spike the battery with an instant high current to break the
+crystals which cause a battery to die.  The capacitor is necessary so
+that the total amount of electrons flowing is instantaneous and then nothing.
+I have noticed that is you have spiked a Nicad once or twice it should work
+again - not quite up to new capacity but it will work.  Because the Nicad
+already had grown crystals spiking the Nicad will revive the batter but
+it is only a matter of time for the crystals to grow back causing the battery
+to die again.
+
+I hope this helped,  I can't be responsible for your getting shocked but
+just be carefull not to touch anything high voltage - expecially the DC
+from a transformer!

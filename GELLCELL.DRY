@@ -1,0 +1,56 @@
+Newsgroups: sci.electronics
+From: forbush@desy.de (Michael Forbush)
+Subject: fixing dead rechargeable battery
+Date: Wed, 7 Jul 1993 20:29:24 GMT
+
+[ Article crossposted from sci.astro ]
+[ Author was John McVey (jmcvey@PROBLEM_WITH_INEWS_GATEWAY_FILE) ]
+[ Posted on Wed, 7 Jul 1993 17:32:08 GMT ]
+
+Actually the electrolyte is probably not dried out.  My understanding is
+this:
+
+When the cell voltage drops too low because the battery is discharged or
+allowed to self-discharge, a insulative chemical can form on the electrodes
+within the battery.  This causes a high impedance state which makes it
+difficult to charge.
+
+It is, however, possible to charge the cell by applying a higher than
+normal DC charging voltage which is carefully current limited.  Many nice
+laboratory power supplies are capable of this.  You just have to see one
+out.
+
+Proceed as follows; this has always worked for me:
+
+Set the output voltage of the power supply to 30 volts or so (even 20
+will probably work, it will just take longer).  Limit the output
+current to 50ma or so.  Now charge the battery until the battery is
+taking the full 50ma of current.  This may take hours or perhaps a full
+day.  Watch the battery, it may start to get warm because you are reversing
+the chemical reaction that formed the insulative layer in the first place.
+
+Once the battery is taking 50ma or so you can reduce the power supply
+voltage to probably 15V and limit the current to the Ampere-Hour capacity
+divided by 5 or 10.  Charge the cell until its voltate as stabilized around
+14.5V (I am assuming you have a 12V cell).  Don't worry too much about
+overcharging lead acid gel-cells.  They typically like trickle charging.
+
+Hope this helps,
+
+John McVey
+jmcvey@hpbslq.boi.hp.com
+
+--
+Mike Forbush
+forbush@panofsky.desy.de
+
+And now for the funny part.....
+
+   Don't LOOK at anything in a physics lab.
+   Don't TASTE anything in a chemistry lab.
+   Don't SMELL anything in a biology lab.
+   Don't TOUCH anything in a medical lab.
+   and, most importantly,
+   Don't LISTEN to anything in a philosophy department.
+
+
